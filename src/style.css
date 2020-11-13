@@ -1,3 +1,7 @@
+.card-largura{
+    max-width: 18rem;   
+   
+}
 .imagem-carrossel{
     object-fit: cover;
     object-position: 0 80%;
@@ -11,26 +15,36 @@
     object-fit: cover;
     height: 250px;
     width: 250px;
-    border: 1px solid #ad2b2b ;
+    border: 1px solid darkred ;
     padding: 2px;
     object-position: 0% 50%;
     border-radius: 100%;       
 }
-.titulo-branco{
-    font-family: 'Pacifico', cursive;
+.cor-branco{    
     color: #ffffff !important;
     font-weight: 500;
 
 }
-.titulo-vermelho{
+.font-titulo{
     font-family: 'Pacifico', cursive;
-    color: #810d0d !important;
-   ;
-   
+}
+.cor-especial{
+    color: darkred !important;     
+}
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+.card-botao{
+    background: darkred;
+    color: #ffffff;
 }
 .card2{
     border:none;
     text-align: center;
+}
+.borda-cor-especial{
+    border-color: darkred ;
 }
 .paragrafo{
     color:#6d7175; font-style: normal; font-weight: 500;
@@ -45,14 +59,13 @@
     padding-top: 8px;
 }
 
-.rodape{  
-    display: flex; 
-    font-size: .8rem; 
-    width: 100% !important;   
-    
-    text-align: center;   
+.rodape{     
+     
+    width: 100% !important; 
+    text-align: center!important;   
     height: 80px;
     color: white;
+    padding: 2 0 ;
     background: rgb(77, 76, 76);
     
 }
